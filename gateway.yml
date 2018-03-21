@@ -4,7 +4,7 @@ server:
 zuul:
     prefix: /api
     routes:
-        reader:
+        group:
             path: /group/**
             serviceId: group
     host:
