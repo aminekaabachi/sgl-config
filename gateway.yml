@@ -5,11 +5,8 @@ zuul:
     prefix: /api
     routes:
         reader:
-            path: /reader/**
-            serviceId: filereader
-        packager:
-            path: /packager/**
-            serviceId: packager
+            path: /group/**
+            serviceId: group
     host:
         connect-timeout-millis: 10000
         socket-timeout-millis: 60000
